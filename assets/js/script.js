@@ -1,5 +1,5 @@
 document.querySelector(".social").addEventListener("click", function () {
-    window.location.href = "https://t.me/username";
+    window.location.href = "https://t.me/barishchavo";
 })
 
 document.querySelector(".tntCount").addEventListener("click", function () {
