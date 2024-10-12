@@ -1,5 +1,8 @@
+var username = prompt("username")
+var link = "https://t.me/"+username;
+
 document.querySelector(".social").addEventListener("click", function () {
-    window.location.href = "https://t.me/barishchavo";
+    window.location.href = link;
 })
 
 document.querySelector(".tntCount").addEventListener("click", function () {
