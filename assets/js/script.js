@@ -1,6 +1,6 @@
 var username = prompt("username")
 var link = "https://t.me/"+username;
-document.querySelector(".social").innetText=username
+document.querySelector(".username").innerHTML="@"+username
 document.querySelector(".social").addEventListener("click", function () {
     window.location.href = link;
 })
