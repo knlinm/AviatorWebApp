@@ -126,6 +126,7 @@ div.item img.item {
     .social p {
         color: white;
         font-size: 30px;
+        text-transform: uppercase;
     }
 
 
